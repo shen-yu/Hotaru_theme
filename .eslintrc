@@ -12,25 +12,10 @@
     "parser": "@typescript-eslint/parser"
   },
   "rules": {
-    "indent": [
-      1,
-      2
-    ],
-    "semi": [
-      1,
-      "always"
-    ],
-    "quotes": [
-      1,
-      "single"
-    ],
-    "brace-style": [
-      1,
-      "1tbs"
-    ],
-    "object-curly-spacing": [
-      1,
-      "always"
-    ]
+    "indent": [1, 2],
+    "semi": [1, "always"],
+    "quotes": [1, "single"],
+    "brace-style": [1, "1tbs"],
+    "object-curly-spacing": [1, "always"]
   }
 }

@@ -1,10 +1,9 @@
 <template>
   <div class="ui vertical masthead center aligned" id="header">
     <div id="header-content">
-      <h1 class="ui inverted header">
+      <h1 class="ui header">
         Server Status
       </h1>
-      <p>Servers' Probes Set up with ServerStatus</p>
     </div>
   </div>
 </template>
@@ -17,25 +16,15 @@ export default defineComponent({
 </script>
 <style scoped>
 #header {
-  height: 25rem;
+  height: 15rem;
   position: relative;
   /*Replace your header image at this place!*/
-  background: url("../assets/img/cover.png") no-repeat center center;
+  background: #21ba45!important;
 }
-
-#header::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
-  background: rgba(66, 64, 64, .15);
+.ui.header{
+  color: #fff!important;
 }
-
-#header::after {
+/* #header::after {
   content: 'Pixiv: 86597206';
   color: #CDCDCD;
   text-shadow: 1px 1px 1px #666;
@@ -43,7 +32,7 @@ export default defineComponent({
   right: 15px;
   bottom: 0;
   z-index: 2;
-}
+} */
 
 /*#header::after {
     content: '';
@@ -57,7 +46,6 @@ export default defineComponent({
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: 2px 2px 2px #666;
   text-align: center;
 }
 
@@ -68,7 +56,7 @@ export default defineComponent({
 
 #header p {
   font-size: 1.5rem;
-  color: aliceblue;
+  color: #555;
   /*white-space: nowrap;*/
 }
 </style>

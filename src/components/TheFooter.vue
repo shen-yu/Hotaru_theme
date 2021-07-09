@@ -1,6 +1,6 @@
 <template>
-  <p>Powered by <a
-      href="https://github.com/CokeMine/ServerStatus-Hotaru">ServerStatus-Hotaru</a></p>
+  <p>Modified by <a
+      href="https://github.com/Shen-Yu">Eric Shen</a></p>
 </template>
 
 <script lang="ts">

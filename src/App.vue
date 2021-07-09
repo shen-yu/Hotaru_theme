@@ -1,5 +1,5 @@
 <template>
-  <the-header/>
+  <the-header />
   <the-error v-show="!servers"/>
   <div class="container">
     <servers-table :servers="servers"/>
@@ -13,8 +13,8 @@
 import { defineComponent, ref, onMounted } from 'vue';
 import axios from 'axios';
 
-import TheHeader from '@/components/TheHeader.vue';
 import TheError from '@/components/TheError.vue';
+import TheHeader from '@/components/TheHeader.vue';
 import ServersTable from '@/components/ServersTable.vue';
 import UpdateTime from '@/components/UpdateTime.vue';
 import ServersCard from '@/components/ServersCard.vue';
@@ -23,8 +23,8 @@ import TheFooter from '@/components/TheFooter.vue';
 export default defineComponent({
   name: 'App',
   components: {
-    TheHeader,
     TheError,
+    TheHeader,
     ServersTable,
     ServersCard,
     TheFooter,
